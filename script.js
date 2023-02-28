@@ -29,6 +29,7 @@ if (adaptive == 'да' || adaptive == 'Да') {
   adaptive = true;
 } else {
   adaptive = false;
+
 }
 
 console.log(adaptive);
@@ -60,3 +61,5 @@ else if ( fullPrice < 0 )
 {
   console.log("Что то пошло не так");
 }
+
+console.log();
