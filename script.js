@@ -28,12 +28,12 @@ const getRollbackMessage = function(price) {
   }
 }
 
-const getAllServicePrices = function(a, b, c) {
-  return a + b + c 
+const getAllServicePrices = function() {
+  return servicePrice1 + servicePrice2 
 }
 
-function getFullPrice(a, b){
-  return a + b
+function getFullPrice(){
+  return screenPrice + getAllServicePrices
 }
 
 const getTitle = function(title){
@@ -41,8 +41,8 @@ const getTitle = function(title){
   return res
 }
 
-const getServicePercentPrices = function(a,b) {
-  return a - (a * (b/100));
+const getServicePercentPrices = function() {
+  return fullPrice - (fullPrice * (rollback / 100));
 }
 
 showTypeOf(title);
