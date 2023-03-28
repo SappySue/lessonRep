@@ -104,3 +104,37 @@ const appData = {
 }
 
 appData.start();
+
+
+
+const title = document.getElementsByTagName('h1')[0],
+      buttons = document.getElementsByClassName('handler_btn')[0],
+      plus = document.querySelector('.screen-btn'),
+      itemsWithPercent = document.querySelectorAll('.other-items.percent'),
+      itemsWithNumber = document.querySelectorAll('.other-items.number'),
+      inputRange = document.querySelector('.rollback input[type="range"]'),
+      spanRange = document.querySelector('.rollback .range-value'),
+      totalInputs = document.getElementsByClassName('total-input');
+
+let screenEl = document.querySelectorAll('.screen');
+
+
+console.log(title);
+console.log(buttons);
+console.log(plus);
+console.log(itemsWithPercent);
+console.log(itemsWithNumber);
+console.log(inputRange);
+console.log(spanRange);
+console.log(totalInputs);
+console.log(totalInputs[0],totalInputs[1],totalInputs[2],totalInputs[3],totalInputs[4]);
+
+
+
+
+
+
+
+
+
+
